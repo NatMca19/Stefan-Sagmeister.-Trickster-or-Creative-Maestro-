@@ -38,6 +38,7 @@ main {
 /* Left-aligned sections */
 .section.left {
     justify-content: flex-start; 
+  
 }
 
 .section.right {
@@ -270,6 +271,7 @@ main {
     display: flex;
     flex-direction: column; 
     gap: 1rem; 
+   
 }
 
 .section p {
@@ -279,3 +281,26 @@ main {
     padding: 1rem;
     border-radius: 8px;
 }
+
+/* Image Styling */
+.image {
+    flex: 1; /* Take up equal space */
+ 
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures image doesn't distort */
+    justify-content: flex-start; 
+}
+
+/* Alternate direction for even and odd sections */
+.section:nth-child(odd) {
+    flex-direction: row; /* Image on the right */
+}
+
+.section:nth-child(even) {
+    flex-direction: row-reverse; /* Image on the left */
+}
+
