@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Bebas Neue", Georgia, 'Times New Roman', Times, serif;
     line-height: 1.1;
     font-weight: 100;
+    
 }
 
 h1 {
@@ -65,7 +66,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 4rem;
-    padding: 50px 220px 0 220px;
+    padding: 50px 220px  220px;
     background: black;
     max-width: 960px
     margin: 0 auto;
