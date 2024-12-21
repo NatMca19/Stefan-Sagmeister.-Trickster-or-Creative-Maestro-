@@ -6,11 +6,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-        font-size:100%;
-        line-height: 1em;
-        }
-    
-
+    font-size: 100%;
+    line-height: 1em;
+}
 
 body, html {
     margin: 0;
@@ -19,6 +17,7 @@ body, html {
     width: 100%;
     box-sizing: border-box;
     font-family: "Mukta", Arial, sans-serif;
+    background-color: black; 
 }
 
 /* General Styling for Headings */
@@ -26,7 +25,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Bebas Neue", Georgia, 'Times New Roman', Times, serif;
     line-height: 1.1;
     font-weight: 100;
-    
 }
 
 h1 {
@@ -57,23 +55,20 @@ p {
 /* Main Content Wrapper */
 main {
     max-width: 960px;
-
-    margin: 0 auto 0 auto;
-    
+    margin: 0 auto;
 }
 
 .content {
     display: flex;
     flex-direction: column;
     gap: 4rem;
-    padding: 50px 220px  220px;
+    padding: 50px;
     background: black;
-    max-width: 960px
-    margin: 0 auto;
-    
+
+    /* Added styles for max width and centering */
+    max-width: 960px;
+    margin: 0 auto; 
 }
-
-
 
 /* Image styling */
 .image {
@@ -99,8 +94,6 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
-    max-width: 960px
-    margin: 0 auto
 }
 
 /* Slideshow Container */
@@ -112,7 +105,6 @@ main {
     height: 100%;
     z-index: 0;
 }
-
 
 .slide {
     position: absolute;
@@ -166,8 +158,8 @@ main {
     padding: 20px;
     border-radius: 10px;
     color: white;
-   
-
+    max-width: 960px;
+    margin: 0 auto; 
 }
 
 .container h1 {
@@ -179,45 +171,43 @@ main {
 /* Image hover */
 .image-hover {
     position: relative;
-    width: 100%; /* Ensures responsiveness */
-    max-width: auto; /* Adjust size if needed */
-    overflow: hidden; /* Prevents overflow */
-    margin: 0 auto; /* Centers the container horizontally */
-   
+    width: 100%; 
+    max-width: auto; 
+    overflow: hidden; 
+    margin: 0 auto; 
 }
 
 .section .image {
-    display: flex; /* Enables flexbox */
-    justify-content: center; /* Centers content horizontally */
-    align-items: center; /* Centers content vertically */
-    text-align: center; /* Ensures alignment for inline elements */
-    width: 100%; /* Full width */
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    width: 100%; 
 }
-
 
 .image-hover img {
     width: 100%;
-    display: block; /* Ensures no extra spacing */
-    transition: opacity 0.5s ease; /* Smooth transition */
-    
+    display: block; 
+    transition: opacity 0.5s ease; 
 }
 
 .image-hover .hover-image {
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0; /* Hidden by default */
-    
+    opacity: 0; 
 }
 
 .image-hover:hover .hover-image {
-    opacity: 1; /* Reveal hover image on hover */
+    opacity: 1; 
 }
 
 .image-hover .default-image {
     display: block;
-    
 }
+
+
+
 
 
 
