@@ -21,8 +21,8 @@ body, html {
 }
 
 /* General Styling for Headings */
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Bebas Neue", Georgia, 'Times New Roman', Times, serif;
+h1, h2 {
+    font-family: "Bebas Neue", sans-serif;
     line-height: 1.1;
     font-weight: 100;
 }
@@ -31,7 +31,7 @@ h1 {
     font-size: 4.4rem;
     margin-bottom: 2rem;
     color: #ffffff;
-    font-family: "Bebas Neue", Georgia, 'Times New Roman', Times, serif;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 h2 {
